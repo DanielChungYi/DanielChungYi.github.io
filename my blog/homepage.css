@@ -1,0 +1,42 @@
+div.upper{
+    width:100vw;
+    height: 20vh;
+    position: fixed;
+    padding:15px;
+    text-align:center;
+    background-color:#FDC673;
+}
+
+div.menu {
+    margin-top:30vh;
+    float:left;
+    width:20%;
+    text-align:center;
+  }
+div.menuitem {
+    background-color:#3D91DF;
+    padding:8px;
+    margin-top:7px;
+    border-radius:15%;
+  }
+
+div.head>img{
+    width:20%;
+    height: 20%;
+    border-radius:50%;
+}
+.main {
+    margin-top:30vh;
+    float:left;
+    width:60%;
+    padding:0 20px;
+  }
+  .right {
+    margin-top:30vh;
+    background-color:#e5e5e5;
+    float:left;
+    width:20%;
+    padding:15px;
+    margin-top:7px;
+    text-align:center;
+  }

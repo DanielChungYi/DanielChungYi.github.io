@@ -1,0 +1,147 @@
+body {
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    font-size: 75%;
+}
+
+div.upper{
+    width:80vw;
+    height: 20vh;
+    position: fixed;
+    padding:1%;
+    text-align:center;
+    background-color:#FDC673;
+    margin-left:20vw;
+}
+div h1{
+    font-size: 5rem;
+    font-family: sans-serif;
+    text-shadow: 2px 2px 5px red;
+}
+div.menu {
+    margin-top:30vh;
+    float:left;
+    width:20%;
+    text-align:center;
+    font-size: 1.2rem;
+  }
+div.menuitem {
+    background-color:#3D91DF;
+    padding:2%;
+    margin-top:2%;
+    border-radius:15%;
+  }
+  .head{
+float: left;
+  }
+
+div.head>img{
+    width:20%;
+    height: 20%;
+    border-radius:50%;
+}
+.main {
+    margin-top:30vh;
+    float:left;
+    width:60%;
+    padding:1%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  div.text{
+    font-size: 1.2rem;
+   position: fixed;
+   float: left;
+   left: 37%;
+    
+  }
+  .right {
+    background-color: #e5e5e5;
+    float: left;
+    width: 12.5%;
+    padding: 2%;
+    margin-top: 0%;
+    text-align: center;
+    left: 70%;
+    position: fixed;
+    height: 45%;
+    
+  }
+  .right2{
+
+    background-color: #81E4F1;
+    float: left;
+    width: 12.5%;
+    padding: 2%;
+    margin-top: 0%;
+    text-align: center;
+    left: 85%;
+    position: fixed;
+    height: 45%;
+  }
+
+.project{
+    margin-left: 10%;
+    font-size: large;
+    background-color: brown;
+    border-radius: 50%;
+    width: 60%;
+    height: 27%;
+    margin-top: 8%;
+    text-align: center
+    
+    
+}
+  div.circle {
+    border-radius: 50%;
+    position: absolute;
+    transition-duration: 1s
+}
+
+
+  div.circle1 {
+    top: 24.5%;
+    right: 63%;
+    width: 18vw;
+    height: 36vh;
+    border-color: #f25b1d;
+    border-style: solid;
+    border-width: 2vh;
+}
+
+div.circle2 {
+    top: 17%;
+    right: 33.5%;
+    background-color: #BD1F0A;
+    width: 55px;
+    height: 55px;
+}
+/* 當namcecard發生hover的事件要做的事情 */
+div:hover .circle2 {
+    transform: translateX(0vw) translateY(60px) scale(1)
+}
+/* 有兩個class同時套用到時用空白 例子 class="A B" */
+div:hover .circle1 {
+    transform: translateX(0px) translateY(0) scale(0.65)}
+
+.foot{
+    
+    width: 60vw;
+    height: 5vh;
+    text-align: center;
+    left:20vw;
+    margin-left: auto;
+    margin-right:auto;
+    top:92vh;
+    position: absolute;
+    padding-top: 10px;
+    font-size: larger;
+    background-color:#e5e5e5
+}
+div:hover.project{
+    transform-style: translate3d(10px, 10px, 20px)
+}

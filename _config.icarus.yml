@@ -1,11 +1,11 @@
 version: 5.1.0
 variant: default
-logo: /img/logo.svg
+logo: /img/love.jpg
 head:
     favicon: /img/favicon.svg
     manifest:
-        name: 
-        short_name: 
+        name: Chung Yi
+        short_name: Daniel
         start_url: 
         theme_color: 
         background_color: 
@@ -50,7 +50,7 @@ navbar:
     links:
         Download on GitHub:
             icon: fab fa-github
-            url: https://github.com/ppoffice/hexo-theme-icarus
+            url: https://github.com/DanielChungYi
 footer:
     links:
         Creative Commons:
@@ -117,17 +117,17 @@ widgets:
     -
         position: left
         type: profile
-        author: Your name
-        author_title: Your title
-        location: Your location
+        author: Daniel Chung Yi
+        author_title: Hardware/Software Engineer
+        location: Taiwan
         avatar: 
         avatar_rounded: false
         gravatar: 
-        follow_link: https://github.com/ppoffice
+        follow_link: https://github.com/DanielChungYi
         social_links:
             Github:
                 icon: fab fa-github
-                url: https://github.com/ppoffice
+                url: https://github.com/DanielChungYi
             Facebook:
                 icon: fab fa-facebook
                 url: https://facebook.com
@@ -215,6 +215,6 @@ plugins:
     twitter_conversion_tracking:
         pixel_id: 
 providers:
-    cdn: jsdelivr
+    cdn: Daniel
     fontcdn: google
     iconcdn: fontawesome
